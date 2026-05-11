@@ -1,4 +1,4 @@
-const API_URL = 'https://backend-titulo-nevk.onrender.com'
+const API_URL = 'https://backend-titulo-nevk.onrender.com/api'
 
 export async function apiRequest(endpoint, options = {}) {
   const token = localStorage.getItem('token')
