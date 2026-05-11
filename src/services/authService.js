@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:3000/api'
+const API_URL = 'https://backend-titulo-nevk.onrender.com/'
 
 export async function iniciarSesion(correo_usuario, password_usuario) {
   const respuesta = await fetch(`${API_URL}/auth/login`, {
